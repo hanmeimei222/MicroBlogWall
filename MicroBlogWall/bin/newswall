@@ -1,0 +1,16 @@
+#!/usr/local/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall/eggs/beautifulsoup4-4.4.1-py2.7.egg',
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall/eggs/requests-2.8.1-py2.7.egg',
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall/eggs/tornado-4.2.1-py2.7-linux-i686.egg',
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall',
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall/eggs/certifi-2015.11.20-py2.7.egg',
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall/eggs/backports.ssl_match_hostname-3.4.0.2-py2.7.egg',
+  ]
+
+import main
+
+if __name__ == '__main__':
+    sys.exit(main.main())

@@ -1,0 +1,12 @@
+#!/usr/local/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall/eggs/setuptools-18.5-py2.7.egg',
+  '/home/hanhan/zhihu/MicroBlogWall/MicroBlogWall/eggs/zc.buildout-2.5.0-py2.7.egg',
+  ]
+
+import zc.buildout.buildout
+
+if __name__ == '__main__':
+    sys.exit(zc.buildout.buildout.main())
